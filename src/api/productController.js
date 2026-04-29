@@ -12,7 +12,7 @@ router.post('/register', async (req, res) => {
   }
 });
 
-// Rota para listar todos os produtos (O professor vai querer ver isso)
+// Rota para listar todos os produtos 
 router.get('/all', async (req, res) => {
   const products = await Product.findAll();
   res.json(products);
