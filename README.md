@@ -25,7 +25,9 @@ Products: Catálogo de itens (Nome, Preço, Categoria).
 Orders: Registro de pedidos realizados (Cliente, Canal, Status, Valor Total).
 
 Como Executar o Projeto:
+
 Pré-requisitos
+
 Certifique-se de ter o Node.js instalado em sua máquina.
 
 Instalação
@@ -33,14 +35,20 @@ Instalação
 Clone o repositório ou baixe os arquivos.
 
 No terminal, acesse a pasta do projeto e instale as dependências:
-npm install,
-npm start,
-npm run dev,
+
+npm install
+
+npm start
+
+npm run dev
+
 O servidor será iniciado através do arquivo principal em src/app.js.
 
 Autenticação
 A aplicação está configurada para suportar diferentes níveis de acesso (ex: ADMIN e CLIENTE). As senhas são protegidas por hash bcrypt e as sessões são gerenciadas via tokens jsonwebtoken.
+
 Licença
+
 Este projeto está sob a licença ISC.
 
 Notas de Desenvolvimento
