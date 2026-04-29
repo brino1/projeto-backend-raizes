@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Order = require('../domain/Order');
 
-// Rota para registrar um novo pedido (Obrigatório Pág. 5)
+// Rota para registrar um novo pedido
 router.post('/create', async (req, res) => {
   try {
     const order = await Order.create(req.body);
