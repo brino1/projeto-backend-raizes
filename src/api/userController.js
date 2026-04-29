@@ -13,7 +13,7 @@ router.post('/register', async (req, res) => {
   }
 });
 
-// Rota de Login (Aqui é onde o professor vai testar o acesso)
+// Rota de Login 
 router.post('/login', async (req, res) => {
   try {
     const { email, senha } = req.body;
