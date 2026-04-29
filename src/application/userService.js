@@ -18,7 +18,7 @@ class UserService {
     const match = await bcrypt.compare(senha, user.senha);
     if (!match) throw new Error('Senha incorreta');
 
-    // Gera o token de acesso (Requisito pág. 7)
+    // Gera o token de acesso 
     const token = jwt.sign({ id: user.id, perfil: user.perfil }, SECRET, { expiresIn: '1h' });
     
     return { token };
