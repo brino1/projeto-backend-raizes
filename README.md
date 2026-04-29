@@ -32,9 +32,9 @@ Instalação
 Clone o repositório ou baixe os arquivos.
 
 No terminal, acesse a pasta do projeto e instale as dependências:
-npm install
-npm start
-npm run dev
+npm install,
+npm start,
+npm run dev,
 O servidor será iniciado através do arquivo principal em src/app.js.
 
 Autenticação
