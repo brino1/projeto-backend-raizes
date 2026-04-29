@@ -29,6 +29,7 @@ Pré-requisitos
 Certifique-se de ter o Node.js instalado em sua máquina.
 
 Instalação
+
 Clone o repositório ou baixe os arquivos.
 
 No terminal, acesse a pasta do projeto e instale as dependências:
