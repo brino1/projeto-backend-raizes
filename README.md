@@ -45,6 +45,7 @@ npm run dev
 O servidor será iniciado através do arquivo principal em src/app.js.
 
 Autenticação
+
 A aplicação está configurada para suportar diferentes níveis de acesso (ex: ADMIN e CLIENTE). As senhas são protegidas por hash bcrypt e as sessões são gerenciadas via tokens jsonwebtoken.
 
 Licença
