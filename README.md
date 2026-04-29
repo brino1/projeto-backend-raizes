@@ -30,7 +30,7 @@ Pré-requisitos
 
 Certifique-se de ter o Node.js instalado em sua máquina.
 
-Instalação
+Instalação:
 
 Clone o repositório ou baixe os arquivos.
 
